@@ -50,10 +50,12 @@
      <Compile Include="Assets\Script\CameraPreview.cs" />
      <Compile Include="Assets\Script\FullImage.cs" />
      <Compile Include="Assets\Script\TestButtonEvent.cs" />
+     <Compile Include="Assets\Script\UI_2D_Custem_Rotate.cs" />
      <Compile Include="Assets\Script\UI_2D_Rotate.cs" />
      <Compile Include="Assets\Script\UI_Move.cs" />
      <Compile Include="Assets\Script\UI_MoveCameraArea.cs" />
      <Compile Include="Assets\Script\UI_Rotate.cs" />
+     <Compile Include="Assets\Script\UI_SideCircle.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
