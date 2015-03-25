@@ -15,10 +15,10 @@ public class UI_Rotate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Quaternion quater = transform.rotation;
+		Quaternion quater = transform.localRotation;
 		Vector3 rot = quater.eulerAngles;
 		quater = Quaternion.Euler(rot.x, rot.y + m_fSpeed * Time.deltaTime, rot.z);
-		transform.rotation = quater;
+		transform.localRotation = quater;
 
 		m_fTime += Time.deltaTime;
 
@@ -26,8 +26,6 @@ public class UI_Rotate : MonoBehaviour {
 		{
 			reset();
 		}
-
-		transform.LookAt (new Vector3 (0, 0, 0));
 	}
 
 	void reset()
