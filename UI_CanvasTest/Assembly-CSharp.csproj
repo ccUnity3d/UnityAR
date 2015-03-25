@@ -50,6 +50,8 @@
      <Compile Include="Assets\Script\CameraPreview.cs" />
      <Compile Include="Assets\Script\FullImage.cs" />
      <Compile Include="Assets\Script\TestButtonEvent.cs" />
+     <Compile Include="Assets\Script\UI_Move.cs" />
+     <Compile Include="Assets\Script\UI_MoveCameraArea.cs" />
      <Compile Include="Assets\Script\UI_Rotate.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
