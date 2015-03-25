@@ -26,6 +26,8 @@ public class UI_Rotate : MonoBehaviour {
 		{
 			reset();
 		}
+
+		transform.LookAt (new Vector3 (0, 0, 0));
 	}
 
 	void reset()
