@@ -3,6 +3,9 @@ using System.Collections;
 
 public class CameraPreview : MonoBehaviour {
 
+	public int m_nCameraWidth	= 320;
+	public int m_nCameraHeight 	= 240;
+
 	// Use this for initialization
 	void Start () {
 		WebCamDevice[] devices = WebCamTexture.devices;
@@ -12,7 +15,7 @@ public class CameraPreview : MonoBehaviour {
 
 		GetComponent<GUITexture> ().pixelInset = new Rect (0, 0, Screen.width, Screen.height);
 
-		WebCamTexture texture = new WebCamTexture (devices [0].name, 320, 240, 30);
+		WebCamTexture texture = new WebCamTexture (devices [0].name, m_nCameraWidth, m_nCameraHeight, 30);
 		texture.Play ();
 
 		GetComponent<GUITexture> ().texture = texture;
